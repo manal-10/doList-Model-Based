@@ -1,5 +1,5 @@
 # doList-Model-Based
-#doList.cpp
+# doList.cpp
 
 #include "doList.h"
 #include "ui_todoapp.h"
@@ -356,7 +356,7 @@ void todoApp::editTaskSlot()
 }
 
 
-doList.h
+# doList.h
 
 #ifndef DOLIST_H
 #define DOLIST_H
@@ -407,7 +407,7 @@ private:
 };
 #endif // DOLIST_H
 
-task.cpp
+# task.cpp
 
 #include "task.h"
 #include "ui_task.h"
@@ -479,7 +479,7 @@ void Task::setStatus(QString status){
         ui->finished->setChecked(false);
 }
 
-task.h
+# task.h
 
 #ifndef TASK_H
 #define TASK_H
